@@ -223,6 +223,37 @@ under the License.
                <queue name="s2iQueue" />
             </anycast>
          </address>
+        <address name="pocQueue">
+            <anycast>
+               <queue name="pocQueue" />
+            </anycast>
+         </address>
+         <address name="newQueue">
+            <anycast>
+               <queue name="newQueue" />
+            </anycast>
+         </address>
+         <address name="deleteQueue">
+            <anycast>
+               <queue name="deleteQueue" />
+            </anycast>
+         </address>
+         <address name="tryQueue">
+            <anycast>
+               <queue name="tryQueue" />
+            </anycast>
+         </address>
+         <address name="MyQueue">
+            <anycast>
+               <queue name="MyQueue" />
+            </anycast>
+         </address>
+         <address name="yourQueue">
+            <anycast>
+               <queue name="yourQueue" />
+            </anycast>
+         </address>
+         <address name="pocTopic"/>
          <address name="demoTopic"/>
 
       </addresses>
