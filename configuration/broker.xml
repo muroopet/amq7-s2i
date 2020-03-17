@@ -253,38 +253,36 @@ under the License.
                <queue name="yourQueue" />
             </anycast>
          </address>
-        <address name="additionalQueue">
+         <address name="additionalQueue">
             <anycast>
                <queue name="additionalQueue" />
             </anycast>
          </address>
-         <address name="pocTopic"/>
-         <address name="demoTopic"/>
          <address name="publishClaimCoreQueue">
             <anycast>
                <queue name="publishClaimCoreQueue" />
             </anycast>
-         </address>				
+         </address>
          <address name="dtst.publishClaimCoreErrorQueue">
             <anycast>
                <queue name="dtst.publishClaimCoreErrorQueue" />
             </anycast>
-         </address>	
+         </address>
          <address name="dtst.publishClaimY70SubscriberQueue">
             <anycast>
                <queue name="dtst.publishClaimY70SubscriberQueue" />
             </anycast>
-         </address>	
+         </address>
          <address name="dtst.publishClaimY70SubscriberErrorQueue">
             <anycast>
                <queue name="dtst.publishClaimY70SubscriberErrorQueue" />
             </anycast>
-         </address>	
+         </address>
          <address name="dtst.publishClaimY70MailCorrespondence"> 
             <anycast>
                <queue name="dtst.publishClaimY70MailCorrespondence" />
             </anycast>
-         </address>	 
+         </address>
          <address name="dtst.mailCorrespondence">
             <anycast>
                <queue name="dtst.mailCorrespondence" />
@@ -294,277 +292,277 @@ under the License.
             <anycast>
                <queue name="dtst.handleCorrespondenceBackAsync" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.handleCorrespondenceBackDLQ">
             <anycast>
                <queue name="dtst.handleCorrespondenceBackDLQ" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.handleCorrespondenceBackDQLNotifiedViaEmail">
             <anycast>
                <queue name="dtst.handleCorrespondenceBackDQLNotifiedViaEmail" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.mailPublishCorrespondence">
             <anycast>
                <queue name="dtst.mailPublishCorrespondence" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishCorrespondenceBackAsync">
             <anycast>
                <queue name="dtst.publishCorrespondenceBackAsync" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishCorrespondenceBackDLQ">
             <anycast>
                <queue name="dtst.publishCorrespondenceBackDLQ" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishCorrespondenceBackDLQNofifiedViaEmail">
             <anycast>
                <queue name="dtst.publishCorrespondenceBackDLQNofifiedViaEmail" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishPersonCoreQueue"> 
             <anycast>
                <queue name="dtst.publishPersonCoreQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishPersonPublisherQueue">
             <anycast>
                <queue name="dtst.publishPersonPublisherQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishPersonPublisherErrorQueue">
             <anycast>
                <queue name="dtst.publishPersonPublisherErrorQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishPersonIncaSplitMessageQueue">
             <anycast>
                <queue name="dtst.publishPersonIncaSplitMessageQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishPersonIncaSubscriberQueue">
             <anycast>
                <queue name="dtst.publishPersonIncaSubscriberQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishPersonIncaSubscriberLegalQueue">
             <anycast>
                <queue name="dtst.publishPersonIncaSubscriberLegalQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishPersonIncaSubscriberErrorQueue">
             <anycast>
                <queue name="dtst.publishPersonIncaSubscriberErrorQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishPersonMailCorrespondence">
             <anycast>
                <queue name="dtst.publishPersonMailCorrespondence" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishPersonGenericSubscriberQueue">
             <anycast>
                <queue name="dtst.publishPersonGenericSubscriberQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishPersonGenericSubscriberErrorQueue">
             <anycast>
                <queue name="dtst.publishPersonGenericSubscriberErrorQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishPersonGenericMailCorrespondence">
             <anycast>
                <queue name="dtst.publishPersonGenericMailCorrespondence" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishPersonKppSubscriberQueue">
             <anycast>
                <queue name="dtst.publishPersonKppSubscriberQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishPersonKppSubscriberErrorQueue">
             <anycast>
                <queue name="dtst.publishPersonKppSubscriberErrorQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.publishPersonKppMailCorrespondence">
             <anycast>
                <queue name="dtst.publishPersonKppMailCorrespondence" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.g90completeOfferBackAsync"> 
             <anycast>
                <queue name="dtst.g90completeOfferBackAsync" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.g90completeOfferBackDLQ">
             <anycast>
                <queue name="dtst.g90completeOfferBackDLQ" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.sendSignalListToQ20Core"> 
             <anycast>
                <queue name="dtst.sendSignalListToQ20Core" />
             </anycast>
-         </address>		 
+         </address>
          <address name="dtst.sendSignalListToQ20CoreDLQ">
             <anycast>
                <queue name="dtst.sendSignalListToQ20CoreDLQ" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishClaimCoreQueue"> 
             <anycast>
                <queue name="test.publishClaimCoreQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishClaimCoreErrorQueue">
             <anycast>
                <queue name="test.publishClaimCoreErrorQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishClaimY70SubscriberQueue">
             <anycast>
                <queue name="test.publishClaimY70SubscriberQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishClaimY70SubscriberErrorQueue">
             <anycast>
                <queue name="test.publishClaimY70SubscriberErrorQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishClaimY70MailCorrespondence"> 
             <anycast>
                <queue name="test.publishClaimY70MailCorrespondence" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.mailCorrespondence">
             <anycast>
                <queue name="test.mailCorrespondence" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.handleCorrespondenceBackAsync">
             <anycast>
                <queue name="test.handleCorrespondenceBackAsync" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.handleCorrespondenceBackDLQ">
             <anycast>
                <queue name="test.handleCorrespondenceBackDLQ" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.handleCorrespondenceBackDQLNotifiedViaEmail">
             <anycast>
                <queue name="test.handleCorrespondenceBackDQLNotifiedViaEmail" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.mailPublishCorrespondence">
             <anycast>
                <queue name="test.mailPublishCorrespondence" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishCorrespondenceBackAsync">
             <anycast>
                <queue name="test.publishCorrespondenceBackAsync" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishCorrespondenceBackDLQ">
             <anycast>
                <queue name="test.publishCorrespondenceBackDLQ" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishCorrespondenceBackDLQNofifiedViaEmail">
             <anycast>
                <queue name="test.publishCorrespondenceBackDLQNofifiedViaEmail" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishPersonCoreQueue"> 
             <anycast>
                <queue name="test.publishPersonCoreQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishPersonPublisherQueue">
             <anycast>
                <queue name="test.publishPersonPublisherQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishPersonPublisherErrorQueue">
             <anycast>
                <queue name="test.publishPersonPublisherErrorQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishPersonIncaSplitMessageQueue">
             <anycast>
                <queue name="test.publishPersonIncaSplitMessageQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishPersonIncaSubscriberQueue">
             <anycast>
                <queue name="test.publishPersonIncaSubscriberQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishPersonIncaSubscriberLegalQueue">
             <anycast>
                <queue name="test.publishPersonIncaSubscriberLegalQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishPersonIncaSubscriberErrorQueue">
             <anycast>
                <queue name="test.publishPersonIncaSubscriberErrorQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishPersonMailCorrespondence">
             <anycast>
                <queue name="test.publishPersonMailCorrespondence" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishPersonGenericSubscriberQueue">
             <anycast>
                <queue name="test.publishPersonGenericSubscriberQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishPersonGenericSubscriberErrorQueue">
             <anycast>
                <queue name="test.publishPersonGenericSubscriberErrorQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishPersonGenericMailCorrespondence">
             <anycast>
                <queue name="test.publishPersonGenericMailCorrespondence" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishPersonKppSubscriberQueue">
             <anycast>
                <queue name="test.publishPersonKppSubscriberQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishPersonKppSubscriberErrorQueue">,
             <anycast>
                <queue name="test.publishPersonKppSubscriberErrorQueue" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.publishPersonKppMailCorrespondence">
             <anycast>
                <queue name="test.publishPersonKppMailCorrespondence" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.g90completeOfferBackAsync"> 
             <anycast>
                <queue name="test.g90completeOfferBackAsync" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.g90completeOfferBackDLQ">
             <anycast>
                <queue name="test.g90completeOfferBackDLQ" />
             </anycast>
-         </address>		 
+         </address>
          <address name="test.sendSignalListToQ20Core">
             <anycast>
                <queue name="test.sendSignalListToQ20Core" />
             </anycast>
-         </address> 
+         </address>
          <address name="test.sendSignalListToQ20CoreDLQ">
             <anycast>
                <queue name="test.sendSignalListToQ20CoreDLQ" />
@@ -880,15 +878,18 @@ under the License.
                <queue name="atst.sendSignalListToQ20CoreDLQ" />
             </anycast>
          </address>
-    		 <address name="publishClaimSubscriberTopic"/>
+         <address name="pocTopic"/>
+         <address name="demoTopic"/>
+         <address name="publishClaimSubscriberTopic"/>
          <address name="dtst.publishClaimSubscriberTopic"/>
          <address name="dtst.publishPersonSubscriberTopic"/>
-    		 <address name="test.publishClaimSubscriberTopic"/>		
-    		 <address name="test.publishPersonSubscriberTopic"/>		
-    		 <address name="stst.publishClaimSubscriberTopic"/>		
-    		 <address name="stst.publishPersonSubscriberTopic"/>		
-	    	 <address name="atst.publishClaimSubscriberTopic"/>		
-	    	 <address name="atst.publishPersonSubscriberTopic"/>
+         <address name="test.publishClaimSubscriberTopic"/>
+         <address name="test.publishPersonSubscriberTopic"/>
+         <address name="stst.publishClaimSubscriberTopic"/>
+         <address name="stst.publishPersonSubscriberTopic"/>
+         <address name="atst.publishClaimSubscriberTopic"/>
+         <address name="atst.publishPersonSubscriberTopic"/>
+
       </addresses>
 
 
