@@ -223,7 +223,7 @@ under the License.
                <queue name="s2iQueue" />
             </anycast>
          </address>
-        <address name="pocQueue">
+         <address name="pocQueue">
             <anycast>
                <queue name="pocQueue" />
             </anycast>
@@ -253,13 +253,23 @@ under the License.
                <queue name="yourQueue" />
             </anycast>
          </address>
-        <address name="additionalQueue">
+         <address name="additionalQueue">
             <anycast>
                <queue name="additionalQueue" />
             </anycast>
          </address>
-        <address name="pocTopic"/>
-        <address name="demoTopic"/>
+         <address name="publishClaimCoreQueue">
+            <anycast>
+               <queue name="publishClaimCoreQueue" />
+            </anycast>
+         </address>
+         <address name="dtst.publishClaimCoreQueue">
+            <anycast>
+               <queue name="dtst.publishClaimCoreQueue" />
+            </anycast>
+         </address>
+         <address name="pocTopic"/>
+         <address name="demoTopic"/>
 
       </addresses>
 
