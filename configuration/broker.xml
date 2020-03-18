@@ -157,14 +157,14 @@ under the License.
 
       <security-settings>
          <security-setting match="#">
-            <permission type="createNonDurableQueue" roles="admin"/>
-            <permission type="deleteNonDurableQueue" roles="admin"/>
+            <permission type="createNonDurableQueue" roles="admin,guest"/>
+            <permission type="deleteNonDurableQueue" roles="admin,guest"/>
             <permission type="createDurableQueue" roles="admin"/>
             <permission type="deleteDurableQueue" roles="admin"/>
             <permission type="createAddress" roles="admin"/>
             <permission type="deleteAddress" roles="admin"/>
             <permission type="consume" roles="admin"/>
-            <permission type="browse" roles="admin, guest"/>
+            <permission type="browse" roles="admin,guest"/>
             <permission type="send" roles="admin"/>
             <!-- we need this otherwise ./artemis data imp wouldn't work -->
             <permission type="manage" roles="admin"/>
@@ -243,16 +243,6 @@ under the License.
                <queue name="tryQueue" />
             </anycast>
          </address>
-         <address name="MyQueue">
-            <anycast>
-               <queue name="MyQueue" />
-            </anycast>
-         </address>
-         <address name="yourQueue">
-            <anycast>
-               <queue name="yourQueue" />
-            </anycast>
-         </address>
          <address name="additionalQueue">
             <anycast>
                <queue name="additionalQueue" />
@@ -266,6 +256,21 @@ under the License.
          <address name="dtst.publishClaimCoreQueue">
             <anycast>
                <queue name="dtst.publishClaimCoreQueue" />
+            </anycast>
+         </address>
+         <address name="dtst.publishClaimCoreErrorQueue">
+            <anycast>
+               <queue name="dtst.publishClaimCoreErrorQueue" />
+            </anycast>
+         </address>
+         <address name="dtst.publishClaimY70SubscriberQueue">
+            <anycast>
+               <queue name="dtst.publishClaimY70SubscriberQueue" />
+            </anycast>
+         </address>
+         <address name="dtst.publishClaimY70SubscriberErrorQueue">
+            <anycast>
+               <queue name="dtst.publishClaimY70SubscriberErrorQueue" />
             </anycast>
          </address>
          <address name="pocTopic"/>
